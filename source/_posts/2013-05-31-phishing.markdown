@@ -1,0 +1,13 @@
+---
+layout: post
+title: "PHISHING"
+date: 2013-05-31 15:50
+comments: true
+categories: 
+author: hitech_gosain
+---
+Before we actually start phishing………. here is a brief introduction about what phishing is…
+
+Phishing is a scamming method used to get personal information.. .
+
+i.e. the act of acquiring private or sensitive data from personal computers for use in fraudulent activities.
