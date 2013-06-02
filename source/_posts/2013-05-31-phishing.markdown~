@@ -4,6 +4,7 @@ title: "PHISHING"
 date: 2013-05-31 15:50
 comments: true
 categories: 
+<<<<<<< HEAD
 author: hitech_gosain
 ---
 Before we actually start phishing………. here is a brief introduction about what phishing is…
@@ -84,3 +85,6 @@ So the above trick is just for you to see one aspect of Hacking….
 Do not use it for malicious purposes.
 
 
+=======
+---
+>>>>>>> 4e66200ba712ba37166da6f15033c61017e4fb1a

@@ -11,6 +11,7 @@ Before we actually start phishing………. here is a brief introduction about w
 Phishing is a scamming method used to get personal information.. .
 
 i.e. the act of acquiring private or sensitive data from personal computers for use in fraudulent activities.
+<<<<<<< HEAD
 
 
 {% img http://www.hoax-slayer.com/images/phishing-scammer.jpg %}
@@ -84,3 +85,5 @@ So the above trick is just for you to see one aspect of Hacking….
 Do not use it for malicious purposes.
 
 
+=======
+>>>>>>> 4e66200ba712ba37166da6f15033c61017e4fb1a
