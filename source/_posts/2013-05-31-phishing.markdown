@@ -12,6 +12,9 @@ Phishing is a scamming method used to get personal information.. .
 
 i.e. the act of acquiring private or sensitive data from personal computers for use in fraudulent activities.
 
+
+{% img http://www.hoax-slayer.com/images/phishing-scammer.jpg %}
+
 Here are steps to have some fun:-
 
 1. Open http://www.facebook.com on any net browser .

