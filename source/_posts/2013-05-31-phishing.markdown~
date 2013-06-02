@@ -12,6 +12,9 @@ Phishing is a scamming method used to get personal information.. .
 
 i.e. the act of acquiring private or sensitive data from personal computers for use in fraudulent activities.
 
+
+{% img http://www.hoax-slayer.com/images/phishing-scammer.jpg %}
+
 Here are steps to have some fun:-
 
 1. Open http://www.facebook.com on any net browser .
@@ -24,7 +27,7 @@ Here are steps to have some fun:-
 
 5. Now press ctrl+f and search for word ‘action’ in the source.
 
-. Replace the selected text written in quotes with ‘post.php’  in the above image .
+6. Replace the selected text written in quotes with ‘post.php’  inthe above image .
 
 action=”https://www.facebook.com/login.php?login_attempt=1&#8243;
 
