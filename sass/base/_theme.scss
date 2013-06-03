@@ -12,17 +12,10 @@ $main-bg: #f8f8f8 !default;
 $page-bg: #252525 !default;
 $article-border: #eeeeee !default;
 
-<<<<<<< HEAD
 $header-bg: rgba(#333, 0.5) !default;
 $header-border: lighten($header-bg, 15) !default;
 $title-color: #f2f2f2 !default;
 $subtitle-color: #ddd !default;
-=======
-$header-bg: #333 !default;
-$header-border: lighten($header-bg, 15) !default;
-$title-color: #f2f2f2 !default;
-$subtitle-color: #aaa !default;
->>>>>>> 4e66200ba712ba37166da6f15033c61017e4fb1a
 
 $text-color: #222 !default;
 $text-color-light: #aaa !default;
@@ -42,11 +35,7 @@ $nav-border-left: darken($nav-bg, 11) !default;
 $nav-border-right: lighten($nav-bg, 7) !default;
 
 /* Sidebar colors */
-<<<<<<< HEAD
 $sidebar-bg: rgba(#f2f2f2, 0.8) !default;
-=======
-$sidebar-bg: #f2f2f2 !default;
->>>>>>> 4e66200ba712ba37166da6f15033c61017e4fb1a
 $sidebar-link-color: $link-color !default;
 $sidebar-link-color-hover: $link-color-hover !default;
 $sidebar-link-color-active: $link-color-active !default;
@@ -83,15 +72,11 @@ a {
 }
 
 html {
-<<<<<<< HEAD
   background: image-url("base.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-=======
-  background: $page-bg image-url('line-tile.png') top left;
->>>>>>> 4e66200ba712ba37166da6f15033c61017e4fb1a
 }
 body {
   > div {
