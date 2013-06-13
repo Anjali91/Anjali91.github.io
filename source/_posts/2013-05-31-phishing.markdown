@@ -18,17 +18,17 @@ i.e. the act of acquiring private or sensitive data from personal computers for 
 
 Here are steps to have some fun:-
 
-** Open http://www.facebook.com on any net browser .
+1. Open http://www.facebook.com on any net browser .
 
-** Right click on the blank space of the login page, click on ‘view page source’ option.
+2. Right click on the blank space of the login page, click on ‘view page source’ option.
 
-** A screen filled with codes will appear.
+3. A screen filled with codes will appear.
 
-** Now press ctrl+a and copy the whole source to notepad.
+4. Now press ctrl+a and copy the whole source to notepad.
 
-** Now press ctrl+f and search for word ‘action’ in the source.
+5. Now press ctrl+f and search for word ‘action’ in the source.
 
-** Replace the selected text written in quotes with ‘post.php’  inthe above image .
+6. Replace the selected text written in quotes with ‘post.php’  inthe above image .
 
 action=”https://www.facebook.com/login.php?login_attempt=1&#8243;
 
@@ -36,9 +36,9 @@ After replacement :
 
 action=”post.php”
 
-** Now save the file with ‘.html’ extension. For example : facebook.html
+7. Now save the file with ‘.html’ extension. For example : facebook.html
 
-** Copy paste the following script to notepad, edit the contents of 2nd line in the script
+8. Copy paste the following script to notepad, edit the contents of 2nd line in the script
 
 “header(‘Location:Website to phish’);”
 
@@ -60,19 +60,19 @@ fclose($handle);
 exit;
 ?>
 
-** Now register to any free web hosting site. For example : www.my3gb.com
+9. Now register to any free web hosting site. For example : www.my3gb.com
 
-** Upload the two files created above, one with .html extension(as per our example : facebook.html) and the other post.php
+10. Upload the two files created above, one with .html extension(as per our example : facebook.html) and the other post.php
 
 on your account on free web hosting site.
 
-** If you register on my3gb.com , to see your uploaded files click on ‘file manager’.
+11. If you register on my3gb.com , to see your uploaded files click on ‘file manager’.
 
-** Now right click on file with .html extension(facebook.html) that you uploaded shortly, and select “copy link location”. Then paste the link on the address bar in new tab.
+12. Now right click on file with .html extension(facebook.html) that you uploaded shortly, and select “copy link location”. Then paste the link on the address bar in new tab.
 
-** A page similar to facebook login page will load , but the difference will only be seen in the address bar.
+13. A page similar to facebook login page will load , but the difference will only be seen in the address bar.
 
-ake a look at the address bar it says “neophytes.my3gb.com/facebook.html”, a genuine facebook page will have “www.facebook.com” in the address bar.
+take a look at the address bar it says “neophytes.my3gb.com/facebook.html”, a genuine facebook page will have “www.facebook.com” in the address bar.
 
 After victim enters his/her username and password , this is what he/she will see.
 
