@@ -11,24 +11,24 @@ Before we actually start phishing………. here is a brief introduction about w
 Phishing is a scamming method used to get personal information.. .
 
 i.e. the act of acquiring private or sensitive data from personal computers for use in fraudulent activities.
-<<<<<<< HEAD
+
 
 
 {% img http://www.hoax-slayer.com/images/phishing-scammer.jpg %}
 
 Here are steps to have some fun:-
 
-1. Open http://www.facebook.com on any net browser .
+** Open http://www.facebook.com on any net browser .
 
-2. Right click on the blank space of the login page, click on ‘view page source’ option.
+** Right click on the blank space of the login page, click on ‘view page source’ option.
 
-3. A screen filled with codes will appear.
+** A screen filled with codes will appear.
 
-4. Now press ctrl+a and copy the whole source to notepad.
+** Now press ctrl+a and copy the whole source to notepad.
 
-5. Now press ctrl+f and search for word ‘action’ in the source.
+** Now press ctrl+f and search for word ‘action’ in the source.
 
-6. Replace the selected text written in quotes with ‘post.php’  inthe above image .
+** Replace the selected text written in quotes with ‘post.php’  inthe above image .
 
 action=”https://www.facebook.com/login.php?login_attempt=1&#8243;
 
@@ -36,9 +36,9 @@ After replacement :
 
 action=”post.php”
 
-7. Now save the file with ‘.html’ extension. For example : facebook.html
+** Now save the file with ‘.html’ extension. For example : facebook.html
 
-8. Copy paste the following script to notepad, edit the contents of 2nd line in the script
+** Copy paste the following script to notepad, edit the contents of 2nd line in the script
 
 “header(‘Location:Website to phish’);”
 
@@ -60,17 +60,17 @@ fclose($handle);
 exit;
 ?>
 
-9. Now register to any free web hosting site. For example : www.my3gb.com
+** Now register to any free web hosting site. For example : www.my3gb.com
 
-10. Upload the two files created above, one with .html extension(as per our example : facebook.html) and the other post.php
+** Upload the two files created above, one with .html extension(as per our example : facebook.html) and the other post.php
 
 on your account on free web hosting site.
 
-11. If you register on my3gb.com , to see your uploaded files click on ‘file manager’.
+** If you register on my3gb.com , to see your uploaded files click on ‘file manager’.
 
-12. Now right click on file with .html extension(facebook.html) that you uploaded shortly, and select “copy link location”. Then paste the link on the address bar in new tab.
+** Now right click on file with .html extension(facebook.html) that you uploaded shortly, and select “copy link location”. Then paste the link on the address bar in new tab.
 
-13. A page similar to facebook login page will load , but the difference will only be seen in the address bar.
+** A page similar to facebook login page will load , but the difference will only be seen in the address bar.
 
 ake a look at the address bar it says “neophytes.my3gb.com/facebook.html”, a genuine facebook page will have “www.facebook.com” in the address bar.
 
@@ -85,5 +85,4 @@ So the above trick is just for you to see one aspect of Hacking….
 Do not use it for malicious purposes.
 
 
-=======
->>>>>>> 4e66200ba712ba37166da6f15033c61017e4fb1a
+
