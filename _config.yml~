@@ -3,15 +3,15 @@
 # ----------------------- #
 
 url: http://Anjali91.github.io
-<<<<<<< HEAD
+
 title: DECRYPTING IDEAS
 subtitle: A blogging framework for hackers.
 author: Anjali
-=======
+
 title: My Octopress Blog
 subtitle: A blogging framework for hackers.
 author: Your Name
->>>>>>> 4e66200ba712ba37166da6f15033c61017e4fb1a
+
 simple_search: http://google.com/search
 description:
 
